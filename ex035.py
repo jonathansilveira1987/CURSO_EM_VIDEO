@@ -1,4 +1,4 @@
-# Analisando Triângulo v1.0
+# Analisando Triângulo v1.0.
 
 print("-=" * 20)
 print("Analisador de Triângulos\n")
