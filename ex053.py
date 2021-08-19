@@ -1,0 +1,2 @@
+# Detector de Palíndromo.
+
