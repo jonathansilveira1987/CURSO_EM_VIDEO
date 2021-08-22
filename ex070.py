@@ -1,0 +1,2 @@
+# Estatísticas em produtos.
+
