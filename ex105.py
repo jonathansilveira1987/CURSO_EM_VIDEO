@@ -1,0 +1,2 @@
+# Analisando e gerando Dicionários.
+
