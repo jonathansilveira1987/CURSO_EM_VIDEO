@@ -1,2 +1,0 @@
-# Exercitando módulos em Python.
-
