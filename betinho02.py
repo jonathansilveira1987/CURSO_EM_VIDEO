@@ -1,8 +1,3 @@
-# Faça um programa que solicite que o usuário digite um nome. O programa deve imprimir na 
-# tela o nome convertido no seguinte formato: L*C!@N& Para isso, o programa deve ser capaz
-#  de converter o nome digitado para maiúsculas e substituir as vogais pelos símbolos
-#  apresentados na tabela abaixo.
-
 def convert_letter(letter): # Função que converte as vogais para os símbolos
 
    letter = letter.upper()
@@ -24,8 +19,6 @@ def main():
    new_name = ''
 
    for i in nome: # Realiza a iteração sobre as letras da palavra
-
-       print(i.upper())
 
        if(i.upper() == 'A' or i.upper() == 'E' or i.upper() == 'I' or i.upper() == 'O' or i.upper() == 'U'): # Aqui verificamos se a letra é uma vogal ou não
 
