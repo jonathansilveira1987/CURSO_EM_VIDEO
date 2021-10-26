@@ -1,4 +1,4 @@
-# 14h40min às 15h20min - 18h20min às 19h10min - 21h55min às 23h10min - 23h42min às 
+# 14h40min às 15h20min - 18h20min às 19h10min - 21h55min às 23h10min - 23h42min às 01h19min - 
 
 while True:
     
