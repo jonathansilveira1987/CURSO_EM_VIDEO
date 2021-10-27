@@ -1,8 +1,8 @@
 from random import seed
 from random import randint
 
-listas = [[]] # Uma lista de lista.
-
+dicionario = {}
+listas = []
 
 while True:
     print('''
@@ -12,27 +12,29 @@ while True:
     [ 2 ] - Visualizar Inscrição
     [ 0 ] - Encerrar
     ''')
-    op = int(input()) # Escolha da opção.
+    op = int(input('Informe a opção desejada-> '))
 
     if op == 1:
-            id = () # cria uma lista para adicionar o nome, e-mail, telefone e curso.
+            voucher = int(input('Informe o valor voucher: '))
             nome = input("Digite o nome da pessoa: ")
             email = input("E-mail: ")
             telefone = input("Telefone com DDD: ")
             curso = input("Curso: ")
-            id.append(nome)
-            id.append(email)
-            id.append(telefone)
-            id.append(curso)
-            # listas(id) #Adiciona a lista criada com o cadastro da pessoa dentro da lista.
-
+            print('\n--------- Segue dados da inscrição ---------')
+            print(f'Voucher: {voucher}')
+            print(f'Nome: {nome}')
+            print(f'E-mail: {email}')
+            print(f'Telefone: {telefone}')
+            print(f'Curso: {curso}')
+            resp = str(input("Quer continuar [S - sim / N - não]? "))
+    if resp in "Ss":
+        continue
+    elif resp in 'Nn':
+        print("Programa Encerrado!")        
     elif op == 2:
-            for mostrar in listas:
-                for mostrar2 in mostrar:
-                    print(mostrar2) # mostra tudo dentro da opção.
-
+        print('Nenhuma inscrição cadastrada!')
+    elif op != 1 and op != 2 and op != 0:
+        print('ERRO: Digite uma opção válida!')
     elif op == 0:
-        print("Encerrado!")
+        print("Programa Encerrado!")
     break
-
-print(id)
