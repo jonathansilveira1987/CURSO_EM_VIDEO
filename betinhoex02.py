@@ -1,3 +1,5 @@
+# Exercício 2.
+
 def convert_letter(letter): # Função que converte as vogais para os símbolos
 
    letter = letter.upper()

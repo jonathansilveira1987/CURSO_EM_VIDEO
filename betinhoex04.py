@@ -1,3 +1,5 @@
+# Exercício 4.
+
 from random import seed
 from random import randint
 

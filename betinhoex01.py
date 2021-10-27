@@ -1,3 +1,5 @@
+# Exercício 1.
+
 while True:
     
     aluno = (input("\nDigite o nome do aluno(a): "))
