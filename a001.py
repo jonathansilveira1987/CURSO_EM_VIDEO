@@ -21,5 +21,3 @@ while i < 5:
         break
 else:
     print(0)
-
-#
