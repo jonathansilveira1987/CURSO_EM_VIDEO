@@ -1,8 +1,15 @@
 from lib.interface import *
+from lib.arquivo import *
 from time import sleep
 
-cabecalho('SISTEMA ARQUIVO v 1.0')
+arq = 'jonathan.txt'
 
+if arquivoExiste(arq):
+    print('Arquivo encontrado com sucesso!')
+else:
+    print('Arquivo não encontrado!')
+
+cabecalho('SISTEMA ARQUIVO v 1.0')
 
 while True:
     resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', 'Sair do Sistema'])
@@ -16,3 +23,6 @@ while True:
     else:
         print('\033[31mERRO! Digite uma opção válida!\033[m')
     sleep(2)
+
+
+
